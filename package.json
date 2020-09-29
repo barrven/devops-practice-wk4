@@ -4,7 +4,7 @@
   "description": "Sampel app",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"Warning: No tests created yet.\"",
     "dev": "nodemon ./index.js localhost 8082"
   },
   "keywords": [
@@ -22,10 +22,7 @@
     "app",
     "api"
   ],
-  "author": {
-    "name": "Pritesh Patel",
-    "email": "sample@gb.ca"
-  },
+  "author": "Pritesh Patel <sample@gb.ca>",
   "homepage": "https://nodejs.org/",
   "license": "ISC",
   "dependencies": {
@@ -33,5 +30,12 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/barrven/devops-practice-wk4.git"
+  },
+  "bugs": {
+    "url": "https://github.com/barrven/devops-practice-wk4/issues"
   }
 }
